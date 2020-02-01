@@ -21,8 +21,7 @@ from random import randint
 
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
-    'Cookie': '''_T_WM=81457129498; ALF=1583072585; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhhcPq.p4_gg2nxPxSEfVIc5JpX5K-hUgL.Fo27ehMRSK.pSKz2dJLoI0qLxKnL1K2LBK2LxKnL1K5L1hBLxK-LBK-LB.BLxK-LBKBLBKMLxKBLBonL1h5LxK.LBKzL1KMt; MLOGIN=1; SCF=AuldYKL41nt-bS9piskZbRIz3RH-vSJ77gL5-4H3Fwfa6L8J4Zeq_EgRmRt-JNr5gl_tr_xz2E6KlkwcRdcfGkc.; SUB=_2A25zMEi9DeRhGedO61UZ9SfNzj6IHXVQ22j1rDV6PUJbktAKLXHFkW1NJodAs0vpOpUQBFjs4GO7jG4kDQ1q7Y3x; SUHB=0Elc_n9raiUw6n; SSOLoginState=1580480749'''
-}
+    'Cookie': 'your cookie'}
 
 class WeiboCommentScrapy(Thread):
 
